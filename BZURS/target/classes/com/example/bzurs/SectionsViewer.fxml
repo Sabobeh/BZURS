@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bzurs.SectionViewerController">
+   <children>
+      <AnchorPane fx:id="scheduleP" layoutX="300.0" layoutY="700.0" maxHeight="250.0" maxWidth="700.0" minHeight="250.0" minWidth="700.0" prefHeight="250.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="450.0">
+         <children>
+            <TableView fx:id="ScheduleTable" maxHeight="250.0" maxWidth="700.0" minHeight="250.0" minWidth="700.0" prefHeight="250.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columns>
+                <TableColumn fx:id="DayColumn" editable="false" maxWidth="99.0" minWidth="99.0" prefWidth="99.0" text="Day" />
+                <TableColumn fx:id="EightColumn" editable="false" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" text="8              " />
+                  <TableColumn fx:id="NineColumn" editable="false" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" text="9              " />
+                  <TableColumn fx:id="TenColumn" editable="false" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" text="10            " />
+                  <TableColumn fx:id="ElevenColumn" editable="false" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" text="11            " />
+                  <TableColumn fx:id="TwelveColumn" editable="false" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" text="12            " />
+                  <TableColumn fx:id="OneColumn" editable="false" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" text="1              " />
+                  <TableColumn fx:id="TwoColumn" editable="false" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" text="2              " />
+                  <TableColumn fx:id="ThreeColumn" editable="false" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" text="3             " />
+                  <TableColumn fx:id="FourColumn" editable="false" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" text="4              " />
+                  <TableColumn fx:id="FiveColumn" editable="false" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" text="5              " />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="CoursesP" layoutX="1000.0" maxHeight="450.0" maxWidth="700.0" minHeight="450.0" minWidth="700.0" prefHeight="450.0" prefWidth="700.0" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane fx:id="TreeP" maxHeight="700.0" maxWidth="300.0" minHeight="700.0" minWidth="300.0" prefHeight="700.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="700.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

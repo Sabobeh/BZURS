@@ -1,0 +1,13 @@
+.button {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #4a913f;
+    -fx-background-radius: 0px;
+}
+.button-hover{
+    -fx-background-color: #71b367;
+}
+.button-clicked{
+    -fx-background-color: #7abd6f;
+    -fx-scale-x: .9;
+    -fx-scale-y: .9;
+}

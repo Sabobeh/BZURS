@@ -1,0 +1,14 @@
+.button-menu{
+    -fx-background-color: #4a913f;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #FFFFFF;
+}
+.button-hover{
+    -fx-background-color: #71b367;
+}
+.button-clicked{
+    -fx-background-color: #7abd6f;
+}
+.button-released{
+    -fx-background-color: #71b367;
+}
